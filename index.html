@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
+    <title>Emergency Service Directory</title>
+
+    <!-- icon -->
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon" />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/f9b49555d4.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- daisyUI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="Style/style.css" />
+
+    <!-- roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- hind madurai font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- inter font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="m-auto">
+      <!-- nav -->
+      <nav
+        class="px-12 py-4 flex justify-between items-center max-sm:flex-col max-sm:gap-7"
+      >
+        <!-- nav left -->
+        <div id="nav-left" class="flex items-center justify-center gap-3">
+          <img class="w-14" src="assets/logo.png" />
+          <h1 class="text-2xl text-emerald-800 font-extrabold font-roboto">
+            Emergency <br />
+            Service
+          </h1>
+        </div>
+        <!-- nav right -->
+        <div id="nav-right" class="flex items-center justify-center gap-3">
+          <button
+            class="justify-center items-center flex bg-green-400/10 py-3 px-8 rounded-[50px] gap-2"
+          >
+            <span
+              id="heart-count"
+              class="text-base text-black ml-1 font-black font-inter"
+              >0</span
+            >
+            <img class="w-6 h-auto" src="assets/heart.png" />
+          </button>
+          <button
+            class="justify-center items-center flex bg-green-400/10 py-3 px-7 rounded-[50px] gap-2"
+          >
+            <span
+              id="coin-count"
+              class="text-base text-black font-black font-inter"
+              >100</span
+            >
+            <img class="w-5 h-auto" src="assets/coin.png" />
+          </button>
+          <button
+            class="flex bg-green-600 py-3 px-7 rounded-[50px] font-semibold font-inter justify-center items-center text-white text-base gap-2"
+          >
+            <span id="copyCount">0</span>
+            Copy
+          </button>
+        </div>
+      </nav>
+
+      <!-- banner -->
+
+      <section
+        class="m-auto bg-gradient-to-r from-[#013223] via-[#006747] to-[#013223] text-center py-3"
+      >
+        <img class="w-20 mx-auto" src="assets/logo-dark.png" />
+        <h1 class="text-white py-2 text-4xl font-semibold">
+          Emergency Service Directory
+        </h1>
+        <p class="text-white text-base font-semibold">
+          Government Emergency Services at Your Fingertip - A Project by
+          Government of the People's Republic of Bangladesh
+        </p>
+      </section>
+    </header>
+  </body>
+</html>
